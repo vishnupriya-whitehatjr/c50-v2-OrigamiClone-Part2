@@ -1,7 +1,6 @@
  h1 {
      color: lightcoral;
-     border: 10px solid dimgray;
-     background-color: dimgrey;
+     margin: 20px;
  }
 
  body {
@@ -9,7 +8,7 @@
  }
 
  img {
-     border: 5px solid black;
+     border: 3px solid black;
      border-radius: 40px;
  }
 
@@ -21,4 +20,22 @@
  ol,
  ul {
      font-family: comic sans ms;
+ }
+ .grid{
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
+ .header{
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+ }
+ .headermain{
+     display:flex;
+     flex-direction: row;
+    justify-content: space-evenly;
+   
+    background-color: white;
+    padding: 10px;
  }
