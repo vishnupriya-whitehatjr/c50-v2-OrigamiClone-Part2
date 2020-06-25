@@ -1,10 +1,17 @@
- h1 {
-     color: lightcoral;
-     margin: 20px;
+ h3 {
+     color: black;
+     font-family:  Verdana;
+     margin-left: 20px;
  }
+.bg{
 
+}
  body {
-     background-color: aliceblue;
+        background-image: url("origami.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     
  }
 
  img {
@@ -13,29 +20,47 @@
  }
 
  p {
-     font-family: comic sans ms;
+     font-family: 'Segoe UI';
+     font-size: larger;
      font-weight: italic;
+     
  }
 
- ol,
- ul {
-     font-family: comic sans ms;
+ ol,ul{
+     font-family: 'Segoe UI';
+     font-size: large;
  }
- .grid{
-     display:flex;
-     flex-wrap: wrap;
-     justify-content: space-evenly;
+ .press{
+    border:3px solid white;
+    border-radius: 20px;
+    background-color:white;
+
  }
  .header{
-     background-color: white;
+    
      display: flex;
      justify-content: space-between;
  }
  .headermain{
      display:flex;
-     flex-direction: row;
-    justify-content: space-evenly;
-   
-    background-color: white;
-    padding: 10px;
+    justify-content: flex-end;
+     align-items: center;
+    
+ }
+ .select{
+    border:3px solid lightskyblue;
+    border-radius: 10px;
+    background-color:lightskyblue;
+    margin:10px;
+       padding: 10px; 
+ }
+ .row {
+     display: flex;
+ }
+
+ .column {
+     
+     padding: 15px;
+     height: 230px;
+    
  }
