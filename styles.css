@@ -10,40 +10,13 @@
 }
 body{
     margin: 0px;
-    background-color:#f7f2f2;
+    background-color:whitesmoke;
     
 }
 a{
     text-decoration: none;
 }
-a:link{
-    color:white;
-}
-a:visited{
-    color:white;
-}
-.bodyimg{
-    position: relative;
-}
-.bodyimg p{
-    color: #f7f2f2;
-    font-size: 55px;
-    font-family: fantasy;
-    position: absolute;
-    top:10%;
-    left:50%;
-    transform: translate(-50%,-50%);
-}
-.bodyimg h3{
-    color: #f7f2f2;
-    font-family: fantasy;
-    font-size: 30px;
-    width: 1600px;
-    position: absolute;
-    top:40%;
-    left:45%;
-    transform: translate(-40%, -40%);
-}
+
 .grid{
     display: flex;
     flex-wrap: wrap;
@@ -58,14 +31,10 @@ a:visited{
 .origami {
     
     border-radius: 20px;
-    background-color: #ffffff;
+    background-color: white;
     padding: 30px;
     margin: 25px;
     width:310px;
     font-family: fantasy;
     
-}
-.origami:hover{
-
-    transform: scale(1.2);
 }
