@@ -18,7 +18,7 @@ body{
 }
 .bodyimg p{
     color: #f7f2f2;
-    font-size: 60px;
+    font-size: 55px;
     font-family: fantasy;
     position: absolute;
     top:10%;
@@ -37,7 +37,7 @@ body{
 }
 .grid{
     display: flex;
-    
+    flex-wrap: wrap;
     margin: 40px;
     font-family: sans-serif;
     
@@ -48,11 +48,11 @@ body{
 }
 .origami {
     
-    border-radius: 50px;
+    border-radius: 20px;
     background-color: #ffffff;
     padding: 30px;
     margin: 25px;
-    width:350px;
+    width:310px;
     font-family: fantasy;
     
 }
