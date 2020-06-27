@@ -11,6 +11,27 @@
 body{
     margin: 0px;
     background-color:#f7f2f2;
+    
+}
+.bodyimg{
+    position: relative;
+}
+.bodyimg p{
+    color: #f7f2f2;
+    font-size: 60px;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.bodyimg h3{
+    color: #f7f2f2;
+    font-size: 30px;
+    width: 1600px;
+    position: absolute;
+    top:40%;
+    left:45%;
+    transform: translate(-40%, -40%);
 }
 .grid{
     display: flex;
@@ -31,4 +52,9 @@ body{
     margin: 25px;
     width:350px;
     font-family: fantasy;
+    
+}
+.origami:hover{
+
+    transform: scale(1.2);
 }
