@@ -2,25 +2,18 @@
     display: flex;
     justify-content: space-between;
     background-color: black;
-    padding: 15px;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 400;
     color: white;
 }
 body{
-    margin: 0px;
     background-color:whitesmoke;
     
 }
-a{
-    text-decoration: none;
-}
-
 .grid{
     display: flex;
     flex-wrap: wrap;
-    margin: 40px;
     font-family: sans-serif;
     
 }
@@ -32,8 +25,7 @@ a{
     
     border-radius: 20px;
     background-color: white;
-    padding: 30px;
-    margin: 25px;
+    
     width:310px;
     font-family: fantasy;
     
